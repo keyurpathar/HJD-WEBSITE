@@ -5,7 +5,7 @@ import Home from './pages/User/Home'
 
 const App = () => {
   return (
-    <div className='p-2'>
+    <div className='px-8 py-3'>
       <Header />
       
       <Routes>
