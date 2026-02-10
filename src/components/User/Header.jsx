@@ -15,7 +15,7 @@ const Header = () => {
 
 
     return (
-        <header className='font-poppins relative'>
+        <header className='font-sn  relative'>
 
             <div className='flex justify-between items-center'>
 
@@ -42,7 +42,7 @@ const Header = () => {
                     <nav>
                         <ul className='flex gap-8 justify-center w-full lg:text-base'>
 
-                            <li>   <Link>Home</Link>           </li>
+                            <li>   <Link className=''>Home</Link>           </li>
 
                             <li>   <Link>Our Team</Link>       </li>
 

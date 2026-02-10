@@ -1,7 +1,81 @@
     @import "tailwindcss";
 
-    @theme {
-        --font-poppins: poppins, sans-serif;
+
+    /* custome font sn pro  */
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-Black.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-Black.woff') format('woff'),
+            url('./assets/font/sn/SNPro-Black.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
     }
 
-    
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-Bold.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-Bold.woff') format('woff'),
+            url('./assets/font/sn/SNPro-Bold.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-ExtraBold.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-ExtraBold.woff') format('woff'),
+            url('./assets/font/sn/SNPro-ExtraBold.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-ExtraLight.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-ExtraLight.woff') format('woff'),
+            url('./assets/font/sn/SNPro-ExtraLight.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-Light.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-Light.woff') format('woff'),
+            url('./assets/font/sn/SNPro-Light.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-Medium.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-Medium.woff') format('woff'),
+            url('./assets/font/sn/SNPro-Medium.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+  
+
+    @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-SemiBold.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-SemiBold.woff') format('woff'),
+            url('./assets/font/sn/SNPro-SemiBold.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+      @font-face {
+        font-family: 'sn';
+        src: url('./assets/font/sn/SNPro-Regular.woff2') format('woff2'),
+            url('./assets/font/sn/SNPro-Regular.woff') format('woff'),
+            url('./assets/font/sn/SNPro-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @theme {
+        --font-sn: 'sn', sans-serif;
+    }

@@ -11,7 +11,7 @@ const Footer = () => {
   return (
 
     <>
-      <footer>
+      <footer className='font-sn'>
         
         {/* top footer  */}
         <div id='top-footer' className='flex justify-center items-center gap-4 flex-wrap'>
@@ -44,25 +44,25 @@ const Footer = () => {
             <ul>
               <li className='mb-2'>
                 <a href='https://www.facebook.com/HJDITOfficial' target='_blank' className=' flex justify-evenly items-center py-1 rounded '>
-                  <FaFacebook className='text-3xl' /> <p className='text-lg font-medium'>Facebook</p>
+                  <FaFacebook className='text-3xl' /> <p className='text-xl font-medium'>Facebook</p>
                 </a>
               </li>
 
               <li className='mb-2'>
                 <a href='https://www.instagram.com/hjdinfotech/' target='_blank' className=' flex justify-evenly items-center py-1 rounded '>
-                  <FaInstagramSquare className='text-3xl' /> <p className='text-lg font-medium'>Instagram</p>
+                  <FaInstagramSquare className='text-3xl' /> <p className='text-xl font-medium'>Instagram</p>
                 </a>
               </li>
 
               <li className='mb-2'>
                 <a href='https://www.linkedin.com/company/bhavans-shree-h-j-doshi-info-tech-institute' target='_blank' className=' flex justify-evenly items-center py-1 rounded '>
-                  <FaLinkedin className='text-3xl' /> <p className='text-lg font-medium'>LinkedIn</p>
+                  <FaLinkedin className='text-3xl' /> <p className='text-xl font-medium'>LinkedIn</p>
                 </a>
               </li>
 
               <li className='mb-2'>
                 <a href='https://hjderp.onlinevidyalaya.net/Pages/BaseFramework/Security/Login.aspx?OrgGroupId=3880' target='_blank' className=' flex justify-evenly items-center py-1 px-1 rounded  '>
-                  <IoLogIn className='text-3xl' /> <p className='text-lg font-medium'>Bhavan's ERP</p>
+                  <IoLogIn className='text-3xl' /> <p className='text-xl font-medium'>Bhavan's ERP</p>
                 </a>
               </li>
 
