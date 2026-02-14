@@ -17,7 +17,7 @@ const Home = () => {
     <div className=''>
 
       {/* slider  */}
-      <div id="slider" className='md:h-[70vh] mb-10 mt-4 relative z-0'>
+      <div id="slider" className='h-[40vh] md:h-[70vh] mb-10 mt-4 relative z-0'>
 
         <Swiper
           spaceBetween={100}
@@ -52,17 +52,17 @@ const Home = () => {
 
       </div>
 
-      <div id="hero-info" className='flex flex-wrap justify-between'>
+      <div id="hero-info" className='flex flex-wrap  justify-between'>
 
 
-        <div id="principal-info" className=' lg:basis-2/3 '>
+        <div id="principal-info" className='basis-full lg:basis-2/3 '>
 
           <div className='border border-gray-400 rounded m-4'>
             <img className='w-full h-96 overflow-hidden object-cover' src="https://res.cloudinary.com/ddd8w7qlf/image/upload/v1771046877/principal_cbwsze_edu8f0.jpg" alt="an principal image" />
           </div>
 
           <div className='px-6 font-sn '>
-            <h2 className='font-gelica text-3xl md:text-4xl my-2  text-gray-700'>From The Desk Of Principal</h2>
+            <h2 className='font-gelica text-2xl md:text-3xl my-2  text-gray-700'>From The Desk Of Principal</h2>
 
             <hr />
 
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
 
 
-        <div id="notice-info" className=' lg:basis-1/3 px-6 my-4  flex flex-col items-center'>
+        <div id="notice-info" className='basis-full lg:basis-1/3 px-6 my-4  flex flex-col items-center'>
 
           <h2 className='text-4xl font-gelica text-gray-600 my-6'>  Notice zone   </h2>
 
