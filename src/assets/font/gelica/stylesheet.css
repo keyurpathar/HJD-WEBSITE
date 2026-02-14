@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica Bk';
+    src: url('FONTSPRINGDEMO-GelicaBkBlack.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaBkBlack.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaBkBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica XLt';
+    src: url('FONTSPRINGDEMO-GelicaXLtExtraLight.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaXLtExtraLight.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaXLtExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica Rg';
+    src: url('FONTSPRINGDEMO-GelicaRgBold.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaRgBold.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaRgBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica Lt';
+    src: url('FONTSPRINGDEMO-GelicaLtLight.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaLtLight.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaLtLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica Md';
+    src: url('FONTSPRINGDEMO-GelicaMdMedium.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaMdMedium.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaMdMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica Rg';
+    src: url('FONTSPRINGDEMO-GelicaRgRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaRgRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaRgRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gelica SBd';
+    src: url('FONTSPRINGDEMO-GelicaSBdSemiBold.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-GelicaSBdSemiBold.woff') format('woff'),
+        url('FONTSPRINGDEMO-GelicaSBdSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

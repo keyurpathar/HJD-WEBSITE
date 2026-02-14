@@ -1,5 +1,9 @@
     @import "tailwindcss";
 
+    @theme {
+        --font-sn: 'sn', sans-serif;
+        --font-gelica: 'gelica', sans-serif;
+    }
 
     /* custome font sn pro  */
     @font-face {
@@ -56,7 +60,7 @@
         font-display: swap;
     }
 
-  
+
 
     @font-face {
         font-family: 'sn';
@@ -67,7 +71,7 @@
         font-display: swap;
     }
 
-      @font-face {
+    @font-face {
         font-family: 'sn';
         src: url('./assets/font/sn/SNPro-Regular.woff2') format('woff2'),
             url('./assets/font/sn/SNPro-Regular.woff') format('woff'),
@@ -76,6 +80,93 @@
         font-display: swap;
     }
 
-    @theme {
-        --font-sn: 'sn', sans-serif;
+    /* gelica font  */
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaBkBlack.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaBkBlack.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaBkBlack.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaXLtExtraLight.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaXLtExtraLight.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaXLtExtraLight.ttf') format('truetype');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgBold.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgBold.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgBold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaLtLight.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaLtLight.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaLtLight.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaMdMedium.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaMdMedium.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaMdMedium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgRegular.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgRegular.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaRgRegular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'gelica';
+        src: url('./assets/font/gelica/FONTSPRINGDEMO-GelicaSBdSemiBold.woff2') format('woff2'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaSBdSemiBold.woff') format('woff'),
+            url('./assets/font/gelica/FONTSPRINGDEMO-GelicaSBdSemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+
+
+    
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
     }

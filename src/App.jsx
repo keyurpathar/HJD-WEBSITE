@@ -10,7 +10,7 @@ import Home from './pages/User/Home'
 
 const App = () => {
   return (
-    <div className='px-8 py-3'>
+    <div className='px-6 py-3'>
       <Header />
       
       <Routes>

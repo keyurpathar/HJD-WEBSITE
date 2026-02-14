@@ -53,7 +53,7 @@ const Header = () => {
                                 <Link className='flex items-center gap-3 cursor-pointer'>Gallery <IoMdArrowDropdown />
                                 </Link>
 
-                                <div className='absolute top-6 px-2 py-1 rounded border text-sm hidden group-hover:flex flex-col w-20 '>
+                                <div className='absolute z-10 bg-white top-6 px-2 py-1 rounded border text-sm hidden group-hover:flex flex-col w-20 '>
                                     <Link className=''>Gallery</Link>
                                     <Link className=''>Video</Link>
                                 </div>
@@ -64,11 +64,11 @@ const Header = () => {
 
                             <li className='group relative'>
 
-                                <Link className='flex items-center gap-3 cursor-pointer'>
+                                <Link className='flex items-center  gap-3 cursor-pointer'>
                                     Usefull <IoMdArrowDropdown />
                                 </Link>
 
-                                <div className='absolute top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-30 '>
+                                <div className='absolute z-10 bg-white top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-30 '>
                                     <Link className=''>Admission</Link>
                                     <Link className=''>Usefull Links</Link>
                                     <Link className=''>Old Exam paper</Link>
@@ -83,7 +83,7 @@ const Header = () => {
                                     IQAC <IoMdArrowDropdown />
                                 </Link>
 
-                                <div className='absolute top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-36 '>
+                                <div className='absolute z-10 bg-white top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-36 '>
                                     <Link className=''>Comittie</Link>
                                     <Link className=''>Vision and Mission</Link>
                                 </div>
@@ -97,7 +97,7 @@ const Header = () => {
                                     Facilities <IoMdArrowDropdown />
                                 </Link>
 
-                                <div className='absolute top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-24 '>
+                                <div className='absolute z-10 bg-white top-6 py-1 px-2 rounded border text-sm hidden group-hover:flex flex-col gap-1 w-24 '>
                                     <Link className=''>Lab</Link>
                                     <Link className=''>Library</Link>
                                 </div>
